@@ -1,0 +1,10 @@
+{
+  "id": "vitalx",
+  "title": "VitalX",
+  "category": "Application Mobile",
+  "type": "mobile",
+  "year": "2024",
+  "tags": ["Health", "Training"],
+  "description": "Application de formation de SAMU.",
+  "image": "/projects/unlatch/cover.png"
+}

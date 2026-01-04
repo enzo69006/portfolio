@@ -1,0 +1,10 @@
+{
+  "id": "clinkt",
+  "title": "Clinkt",
+  "category": "Application Mobile",
+  "type": "mobile",
+  "year": "2024",
+  "tags": ["React Native", "Firebase"],
+  "description": "Application mobile pour influenceurs.",
+  "image": "/projects/unlatch/cover.png"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "unlatch",
+  "title": "Unlatch",
+  "category": "Application Mobile",
+  "type": "mobile",
+  "year": "2023",
+  "tags": ["Next.js", "Stripe", "PostgreSQL"],
+  "description": "Application mobile pour influenceurs.",
+  "image": "/projects/unlatch/cover.png"
+}

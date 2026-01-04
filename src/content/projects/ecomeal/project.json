@@ -1,0 +1,10 @@
+{
+  "id": "ecomeal",
+  "title": "Ecomeal",
+  "category": "Application Mobile",
+  "type": "mobile",
+  "year": "2023",
+  "tags": ["React Native", "AI", "Node"],
+  "description": "Application de création de nourriture.",
+  "image": "/projects/ecomeal/cover.png"
+}

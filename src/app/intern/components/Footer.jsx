@@ -68,7 +68,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <p className="text-xs text-gray-400 font-mono uppercase">Email</p>
-                                <a href="mailto:contact@syntaax.io" className="text-lg font-bold hover:text-purple-600 transition-colors">contact@syntaax.io</a>
+                                <a href="mailto:enzo.deshayes10@icloud.com" className="text-lg font-bold hover:text-purple-600 transition-colors">enzo.deshayes10@icloud.com</a>
                             </div>
                         </div>
 
@@ -78,7 +78,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <p className="text-xs text-gray-400 font-mono uppercase">Téléphone</p>
-                                <p className="text-lg font-bold">+33 6 12 34 56 78</p>
+                                <p className="text-lg font-bold">07 82 40 84 34</p>
                             </div>
                         </div>
 
@@ -88,7 +88,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <p className="text-xs text-gray-400 font-mono uppercase">Bureau</p>
-                                <p className="text-lg font-bold">Paris, France</p>
+                                <p className="text-lg font-bold">Lyon, France</p>
                             </div>
                         </div>
                     </motion.div>
