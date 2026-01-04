@@ -1,10 +1,19 @@
 {
   "id": "vitalx",
   "title": "VitalX",
-  "category": "Application Mobile",
-  "type": "mobile",
-  "year": "2024",
-  "tags": ["Health", "Training"],
-  "description": "Application de formation de SAMU.",
-  "image": "/projects/unlatch/cover.png"
+  "category": "Application Tablette / SaaS",
+  "type": "B2B",
+  "year": "2025",
+  "client": "VitalX",
+  "services": ["Mobile Development", "UI/UX Design", "Hardware Integration"],
+  "tech": ["Swift", "React Native", "Bluetooth Low Energy"],
+  "description": "Système complet de simulation médicale pour scénariser, piloter et afficher des constantes vitales en temps réel.",
+  "challenge": "La formation médicale manque de réalisme et d'outils modernes. Les solutions existantes sont souvent lourdes, coûteuses et peu intuitives pour les formateurs.",
+  "solution": "VitalX transforme deux iPads en un moniteur multiparamétrique ultra-réaliste. Le formateur pilote les constantes (ECG, SpO2, Tension...) à distance et lance des scénarios complexes (AVC, Arrêt cardiaque) en un clic.",
+  "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1576091160550-217358c7db81?w=800&q=80",
+    "https://images.unsplash.com/photo-1516549655169-df83a092fc43?w=800&q=80"
+  ],
+  "link": "https://vitalx.org/"
 }

@@ -33,3 +33,24 @@ export function getAllProjects() {
 
   return projects;
 }
+
+export function getProjectBySlug(slug) {
+  const filePath = path.join(projectsDirectory, slug, 'project.json');
+  
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+
+  try {
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const projectData = JSON.parse(fileContents);
+    
+    return {
+      slug,
+      ...projectData,
+    };
+  } catch (e) {
+    console.error(`Error reading project ${slug}:`, e);
+    return null;
+  }
+}

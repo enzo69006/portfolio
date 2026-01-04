@@ -3,8 +3,17 @@
   "title": "Clinkt",
   "category": "Application Mobile",
   "type": "mobile",
-  "year": "2024",
-  "tags": ["React Native", "Firebase"],
-  "description": "Application mobile pour influenceurs.",
-  "image": "/projects/unlatch/cover.png"
+  "year": "2025",
+  "client": "Clinkt",
+  "services": ["Product Design", "Mobile Development"],
+  "tech": ["React Native", "Firebase", "Stripe Connect"],
+  "description": "Monétisez vos médias sociaux en seulement trois clics.",
+  "challenge": "Les créateurs de contenu peinent à monétiser directement leur audience sans passer par des plateformes complexes ou des partenariats longs à mettre en place.",
+  "solution": "Clinkt simplifie la monétisation avec une approche 'link-in-bio' sur-vitaminée, permettant de vendre du contenu exclusif ou des services instantanément.",
+  "coverImage": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80",
+    "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&q=80"
+  ],
+  "link": "https://clinkt.me/"
 }

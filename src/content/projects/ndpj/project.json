@@ -3,8 +3,17 @@
   "title": "Ndpj.fr",
   "category": "Site Web",
   "type": "web",
-  "year": "2024",
-  "tags": ["WebGL", "3D", "React"],
-  "description": "Site web école privé.",
-  "image": "/projects/ndpj/cover.png"
+  "year": "2023",
+  "client": "École Notre Dame du Pas-Jésus",
+  "services": ["Web Design", "Development", "SEO"],
+  "tech": ["Next.js", "CMS", "Tailwind CSS"],
+  "description": "Refonte moderne du site web d'une école privée.",
+  "challenge": "L'école avait besoin d'une présence en ligne qui reflète ses valeurs pédagogiques tout en facilitant l'accès à l'information pour les parents et les élèves.",
+  "solution": "Un site web institutionnel clair, rapide et accessible, mettant en avant la vie scolaire et simplifiant les démarches d'inscription.",
+  "coverImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
+    "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80"
+  ],
+  "link": "https://ndpj.fr"
 }

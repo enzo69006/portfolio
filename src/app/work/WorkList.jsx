@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 const categories = [
@@ -144,8 +145,8 @@ export default function WorkList({ initialProjects }) {
                     transition={{ duration: 0.4 }}
                 >
                     {filteredProjects.map((project, index) => (
+                        <Link href={`/work/${project.slug}`} key={project.id} className="block">
                         <motion.div 
-                            key={project.id}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.4, delay: index * 0.1 }}
@@ -179,6 +180,7 @@ export default function WorkList({ initialProjects }) {
                                 </div>
                             </div>
                         </motion.div>
+                        </Link>
                     ))}
                 </motion.div>
             </AnimatePresence>

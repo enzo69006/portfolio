@@ -3,8 +3,18 @@
   "title": "Unlatch",
   "category": "Application Mobile",
   "type": "mobile",
-  "year": "2023",
-  "tags": ["Next.js", "Stripe", "PostgreSQL"],
-  "description": "Application mobile pour influenceurs.",
-  "image": "/projects/unlatch/cover.png"
+  "year": "2025",
+  "client": "Unlatch Inc.",
+  "services": ["UI/UX Design", "Mobile Development", "Backend API"],
+  "tech": ["React Native", "Node.js", "PostgreSQL", "Stripe"],
+  "description": "Une plateforme révolutionnaire connectant les marques aux créateurs de contenu les plus pertinents pour leur audience.",
+  "challenge": "Le marché de l'influence est saturé et manque de transparence. Les marques peinent à trouver des créateurs authentiques, et les créateurs manquent d'outils professionnels pour gérer leurs collaborations.",
+  "solution": "Nous avons conçu une application mobile centrée sur l'humain, offrant un matching algorithmique précis, une gestion de contrat intégrée et des paiements sécurisés. L'interface minimaliste met en valeur le talent des créateurs.",
+  "coverImage": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80",
+    "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=800&q=80",
+    "https://images.unsplash.com/photo-1551650992-ee4fd47df53f?w=800&q=80"
+  ],
+  "link": "https://unlatch.app"
 }
