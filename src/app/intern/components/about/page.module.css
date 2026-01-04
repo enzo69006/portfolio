@@ -1,0 +1,34 @@
+/* mobile.module.css */
+.section {
+    position: relative;
+    min-height: 100vh;       /* laisse la section adapter sa hauteur */
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.bubble {
+    max-width: 30rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.left {
+    background: #6b7280;
+    color: #fff;
+}
+
+.right {
+    position: absolute;
+    right: 2rem;
+    top: 60%;
+    transform: translateY(100px);
+    opacity: 0;
+    background: #3f0071;
+    color: #fff;
+}

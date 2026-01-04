@@ -1,4 +1,8 @@
+@import 'locomotive-scroll/dist/locomotive-scroll.css';
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 
 :root {
   --background: #ffffff;
