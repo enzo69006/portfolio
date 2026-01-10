@@ -10,11 +10,13 @@
   "description": "Une plateforme révolutionnaire connectant les marques aux créateurs de contenu les plus pertinents pour leur audience.",
   "challenge": "Le marché de l'influence est saturé et manque de transparence. Les marques peinent à trouver des créateurs authentiques, et les créateurs manquent d'outils professionnels pour gérer leurs collaborations.",
   "solution": "Nous avons conçu une application mobile centrée sur l'humain, offrant un matching algorithmique précis, une gestion de contrat intégrée et des paiements sécurisés. L'interface minimaliste met en valeur le talent des créateurs.",
-  "coverImage": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1600&q=80",
+  "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/be/34/83be34f9-a52e-d584-5c2d-b5027eb881ca/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "gallery": [
-    "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80",
-    "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=800&q=80",
-    "https://images.unsplash.com/photo-1551650992-ee4fd47df53f?w=800&q=80"
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/67/30/936730df-4234-285a-e3bc-2fc5106f215d/8.png/600x1300bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/26/75/40267533-c58b-78dd-7430-088390320cb4/13.png/600x1300bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/82/85/62828532-84f5-8e63-0034-68bad4f806b4/9.png/600x1300bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/fa/5e/72fa5e35-2259-9410-70cf-b8cfbe89a98b/10.png/600x1300bb.jpg"
   ],
-  "link": "https://unlatch.app"
+  "link": "https://apps.apple.com/fr/app/unlatch-app/id6744340944",
+  "appStoreId": "6744340944"
 }

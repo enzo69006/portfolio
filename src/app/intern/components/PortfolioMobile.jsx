@@ -5,15 +5,27 @@ import { useRef, useState } from 'react';
 import Image from 'next/image';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 
-import prodA from '../../assets/project/mobile/unlatch.png';
-import prodB from '../../assets/project/mobile/unlatch.png';
-import prodC from '../../assets/project/mobile/unlatch.png';
+import prodEcomeal from '../../assets/project/ecomeal-presentation-1 .png';
 
 const cards = [
-    { year: '2024', image: prodA, title: 'UNLATCH', tags: ['Webflow', 'Custom Code'] },
-    { year: '2024', image: prodB, title: 'ECOMEAL', tags: ['Design', 'API'] },
-    { year: '2023', image: prodC, title: 'OOTSIDE', tags: ['E-commerce', 'CMS'] },
-    // …
+    { 
+        year: '2025', 
+        image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1600&q=80', 
+        title: 'CLINKT', 
+        tags: ['React Native', 'Firebase'] 
+    },
+    { 
+        year: '2025', 
+        image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1600&q=80', 
+        title: 'VITALX', 
+        tags: ['Swift', 'IoT', 'Medical'] 
+    },
+    { 
+        year: '2024', 
+        image: prodEcomeal, 
+        title: 'ECOMEAL', 
+        tags: ['Flutter', 'API', 'E-commerce'] 
+    },
 ];
 
 export default function PortfolioMobile() {
@@ -88,6 +100,17 @@ export default function PortfolioMobile() {
                     </span>
                                     ))}
                                 </div>
+                                {card.link && (
+                                    <a 
+                                        href={card.link} 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="mt-3 inline-block bg-black text-white text-xs font-bold px-4 py-2 rounded-full hover:bg-gray-800 transition-colors"
+                                        onMouseDown={(e) => e.stopPropagation()} // Prevent drag start
+                                    >
+                                        Voir dans l'App Store
+                                    </a>
+                                )}
                             </div>
                         </div>
                     ))}

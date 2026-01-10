@@ -1,10 +1,12 @@
 "use client";
 
 import React, { useRef } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import { motion, useScroll, useTransform, useMotionTemplate, useMotionValue, useSpring } from "framer-motion";
 import { ArrowUpRight, Smartphone, Zap, Shield, Lightbulb, Code2, Rocket, RefreshCw } from "lucide-react";
 import imageUnlatch from "../../assets/project/mobile/unlatch.png";
+import imageEcomeal from "../../assets/project/ecomeal-presentation-1 .png";
 
 // --- COMPONENTS ---
 
@@ -309,22 +311,37 @@ const Page = () => {
   const apps = [
     {
       title: "Unlatch",
+      slug: "unlatch",
       category: "Immobilier",
-      desc: "Réservation de lieux et événements, gestion des disponibilités pour influenceurs.",
+      desc: "Une plateforme révolutionnaire connectant les marques aux créateurs de contenu les plus pertinents pour leur audience.",
       image: imageUnlatch,
       stats: "Note 4.8/5",
+      link: "https://apps.apple.com/fr/app/unlatch-app/id6744340944"
     },
     {
-      title: "Health Hub",
-      category: "Bien-être",
-      desc: "Suivi santé complet avec objectifs personnalisés et graphiques.",
-      stats: "10k+ Utilisateurs",
-    },
-    {
-      title: "Social Studio",
+      title: "Clinkt",
+      slug: "clinkt",
       category: "Social",
-      desc: "Réseau social pour créatifs, partagez vos œuvres et collaborez.",
-      stats: "À la Une",
+      desc: "Réseau social innovant basé sur la géolocalisation et les centres d'intérêt communs.",
+      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1600&q=80",
+      stats: "10k+ Users"
+    },
+    {
+      title: "VitalX",
+      slug: "vitalx",
+      category: "Médical",
+      desc: "Application de suivi de santé connectée aux dispositifs IoT pour un monitoring en temps réel.",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1600&q=80",
+      stats: "IoT Ready",
+      link: "https://apps.apple.com/fr/app/vitalx/id6743717331"
+    },
+    {
+      title: "Ecomeal",
+      slug: "ecomeal",
+      category: "FoodTech",
+      desc: "Solution de commande de repas et de gestion de plans nutritionnels personnalisés.",
+      image: imageEcomeal,
+      stats: "5k+ Orders"
     },
   ];
 
@@ -539,14 +556,24 @@ const Page = () => {
                 <h3 className="text-5xl md:text-7xl font-bold mb-8 text-black group-hover:text-purple-600 transition-colors duration-500">{app.title}</h3>
                 <p className="text-xl text-gray-500 leading-relaxed mb-10 border-l-2 border-gray-200 pl-6">{app.desc}</p>
                 
-                <div className="flex items-center gap-8">
+                <div className="flex items-center justify-between w-full">
                     <div>
                         <p className="text-xs text-gray-400 uppercase tracking-wider mb-1">Stats</p>
                         <p className="text-lg font-bold">{app.stats}</p>
                     </div>
-                    <a href="#" className="w-16 h-16 rounded-full bg-black text-white flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <ArrowUpRight size={24} />
-                    </a>
+                    
+                    <div className="flex items-center gap-3">
+                        {app.link && (
+                            <a href={app.link} target="_blank" rel="noopener noreferrer" className="px-5 py-3 rounded-full bg-black text-white flex items-center gap-2 hover:scale-105 transition-transform duration-300">
+                                <span className="font-bold text-sm">App Store</span>
+                                <ArrowUpRight size={16} />
+                            </a>
+                        )}
+                        
+                        <Link href={`/work/${app.slug}`} className="w-14 h-14 rounded-full bg-gray-100 text-black flex items-center justify-center hover:bg-purple-600 hover:text-white transition-colors duration-300">
+                            <ArrowUpRight size={24} />
+                        </Link>
+                    </div>
                 </div>
               </motion.div>
             </div>
